@@ -1,0 +1,24 @@
+{
+    "name": "larakit/lk-auth",
+    "description": "авторизация",
+    "keywords": [
+        "laravel",
+        "larakit"
+    ],
+    "require": {
+        "larakit/lk-boot": "*"
+    },
+    "authors": [
+        {
+            "name": "Alexey Berdnikov",
+            "email": "aberdnikov@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/init.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
