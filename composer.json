@@ -18,7 +18,10 @@
     "autoload": {
         "files": [
             "src/init.php"
-        ]
+        ],
+        "psr-4": {
+            "Larakit\\": "src/"
+        }
     },
     "minimum-stability": "dev"
 }
