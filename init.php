@@ -20,3 +20,5 @@ if(class_exists('\Larakit\Twig')) {
         return me($prop);
     });
 }
+
+\Larakit\Boot::register_observer_user(\Larakit\UserObserver::class);
